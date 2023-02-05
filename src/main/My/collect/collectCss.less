@@ -1,0 +1,31 @@
+.my-collect{
+    display: flex;
+    margin: 0.2rem 1% ;
+    box-sizing: border-box;
+    // background-color: #a5a5a5;
+    padding: 0.2rem 0.1rem;
+    border: 1px solid #a3a3a3;
+    height: 2.5rem;
+    div{
+        flex: 2;
+        text-align: center;
+        img{
+            height: 2rem;
+            width: 2rem;
+        }
+        &:nth-of-type(2){
+            flex: 3;
+            text-align: left;
+        }
+        &:last-of-type{
+            flex: 1;
+            height: 2rem;
+            line-height: 2rem;
+            button{
+                padding: 0 8px;
+                border-radius: 4px;
+                background-color: #ff5050;
+            }
+        }
+    }
+}

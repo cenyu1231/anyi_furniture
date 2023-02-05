@@ -1,0 +1,66 @@
+// 详细数据区
+#order-content {
+    padding: 0 10px;
+    box-sizing: border-box;
+
+    .order-com {
+        width: 100%;
+        background-color: #f0f0f0;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        border: 1px solid #d3d3d3;
+        box-shadow: 0 0 5px 1px #0000ff;
+
+    }
+
+    .order-addr{
+        height: 100px;
+    }
+    .order-details{
+        height: 300px;
+    }
+}
+
+
+
+// 底部支付操作
+#order-btm {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    color: #ffffff;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    font-size: 0.3rem;
+
+    div {
+        &:first-of-type {
+            flex: 6;
+            background-color: #000000;
+            padding-left: 5px;
+            span{
+                font-size: 0.1rem;
+            }
+        }
+
+        &:nth-last-of-type(2) {
+            flex: 2;
+            background-color: #333333;
+            text-align: center;
+            color: #ffef00;
+        }
+
+        &:nth-last-of-type(1) {
+            flex: 2;
+            background-color: #ffdf00;
+            color: #000000;
+            text-align: center;
+        }
+    }
+}
